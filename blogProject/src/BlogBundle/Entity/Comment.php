@@ -4,9 +4,8 @@
 namespace BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
 /**
- * @ORM\Entity(repositoryClass="\logBundle\Entity\Repository\CommentRepository")
+ * @ORM\Entity(repositoryClass="BlogBundle\Repository\CommentRepository")
  * @ORM\Table(name="comment")
  * @ORM\HasLifecycleCallbacks
  */

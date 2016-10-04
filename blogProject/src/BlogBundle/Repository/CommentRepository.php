@@ -1,7 +1,7 @@
 <?php
 // src/BlogBundle/Entity/Repository/CommentRepository.php
 
-namespace BlogBundle\Entity\Repository;
+namespace BlogBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
